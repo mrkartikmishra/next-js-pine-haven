@@ -9,13 +9,20 @@ export default function Page() {
         Our Luxury Cabins
       </h1>
       <p className="mb-10 text-lg text-primary-200">
-        Welcome to our curated collection of forest cabins at The Pine Haven —
-        your gateway to peace, privacy, and pure nature. Tucked away amidst
+        Welcome to our curated collection of forest cabins at{" "}
+        <i>
+          <strong>The Pine Haven</strong>
+        </i>{" "}
+        — your gateway to peace, privacy, and pure nature. Tucked away amidst
         towering pines and lush greenery, each cabin is uniquely crafted for
-        comfort, charm, and connection with the wild. Whether you dream of cozy
-        nights by the fire, sunrise views through forest mist, or simply
-        escaping the city noise, you&apos;ll find your perfect haven here.
-        Explore our cabins and book the getaway your soul has been craving.
+        comfort, charm, and connection with the{" "}
+        <i>
+          <strong>Nature</strong>
+        </i>{" "}
+        . Whether you dream of cozy nights by the fire, sunrise views through
+        forest mist, or simply escaping the city noise, you&apos;ll find your
+        perfect haven here. Explore our cabins and book the getaway your soul
+        has been craving.
       </p>
     </div>
   );
